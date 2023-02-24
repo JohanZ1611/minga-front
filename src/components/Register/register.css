@@ -1,0 +1,37 @@
+.cont-register{
+    min-height: 100vh;
+    display: flex;
+}
+
+.cont-form-register{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.img-register{
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 1023px){
+    .cont-form-register{
+        width: 70vw;
+    }
+    .img-register{
+        width: 30vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .cont-form-register{
+        width: 100vw;
+    }
+    .img-register{
+        display: none;
+    }
+    
+}

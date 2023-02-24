@@ -1,32 +1,29 @@
 .hero-info{
-    width: 1258px;
-    height: 265px;
+    width: 92vw;
+    height: 16.563rem;
     background: linear-gradient(162.88deg, #FF5722 -11.37%, #F97316 73.97%);
     border-radius: 6px;
-    margin: 0 4rem;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 6rem;
         
 }
 .img1-info{
-    position: absolute;
-    width: 263px;
-    height: 291px;
-    left: 126px;
-    top: 650px;
+    width: 16.438rem;
+    height: 18.188rem;
+    margin-bottom: 1rem;
 }
 
 .img2-info{
-    position: absolute;
-    width: 179px;
-    height: 284px;
-    left: 470px;
-    top: 640px;
+    width: 11.188rem;
+    height: 16rem;
     border-radius: 6px;
+    margin-bottom: 2rem;
 }
+
 .cont-info2-hero{
     width: 22.25rem;
-    margin-left: 48.5rem;
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -34,7 +31,7 @@
 }
 
 
-.cont-info h2{
+.h2-info2-hero{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -42,14 +39,14 @@
     color: #FFFFFF;
 }
 
-.cont-info p{
+.p1-info2-hero{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.6);
 }
-.cont-info p:nth-child(3){
+.p2-info2-hero{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;

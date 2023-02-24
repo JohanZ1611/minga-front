@@ -1,0 +1,140 @@
+.form-register{
+    width: 28rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8.8rem;
+    gap: 4rem;
+}
+
+.img-logo-form{
+    width: 9.663rem;
+    height: 3rem;
+}
+
+.title-form{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 48px;
+}
+
+.text-form{
+    width: 384px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size:0.75rem;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: rgba(31, 31, 31, 0.75);
+}
+
+.cont-info-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-google{
+    width: 24px;
+    height: 24px;
+}
+
+.btn-google{
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.cont-check{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.input-check{
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #1F1F1F;
+    border-radius: 5px;
+}
+.label-check{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.cont-btn-submit{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-submit{
+    border: none;
+    width: 24rem;
+    height: 3rem;
+    background: #F97316;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 0px #F4B333);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #EBEBEB;
+    cursor: pointer;
+}
+
+.btn-google{
+    width: 24rem;
+    height: 3rem;
+    background: transparent;
+    border: 1px solid #1F1F1F;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    cursor: pointer;
+}
+
+.btn-google p{
+    opacity: 0.5;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.cont-info-form-final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-fin-form{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.color-info-final{
+    color: #F97316;
+    font-weight: 700;
+}
