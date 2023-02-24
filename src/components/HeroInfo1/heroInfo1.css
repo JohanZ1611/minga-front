@@ -1,0 +1,67 @@
+.cont-info1-hero{
+    color: white;
+    width: 44.438rem;
+    height: 12.438rem;
+    margin-left: 6.727rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.cont-info1-hero h2{
+    width: 44.438rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95.19%;
+}
+
+.cont-info1-hero h3{
+    width: 15rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 95.19%;
+}
+
+.cont-info1-hero p{
+    width: 8rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 95.19%;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 15rem;
+    height: 3.438rem;
+}
+
+button p{
+    width: 5.625rem;
+    height: 1.438rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 95.19%;
+    background: linear-gradient(162.88deg, #FF5722 -11.37%, #F97316 73.97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
