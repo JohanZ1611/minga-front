@@ -1,0 +1,9 @@
+.cont-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-nav img{
+    margin: 2rem 5.688rem;
+}
