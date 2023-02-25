@@ -1,33 +1,36 @@
 .hero-info{
     width: 92vw;
-    height: 16.563rem;
+    height:  25vh;
     background: linear-gradient(162.88deg, #FF5722 -11.37%, #F97316 73.97%);
     border-radius: 6px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
-    gap: 6rem;
+    gap: 10vh;
         
 }
 .img1-info{
-    width: 16.438rem;
-    height: 18.188rem;
-    margin-bottom: 1rem;
+    width: 16vw;
+    height: 28vh;
+    margin-left: 5vh;
+    margin-bottom: .5rem;
 }
 
 .img2-info{
-    width: 11.188rem;
-    height: 16rem;
-    border-radius: 6px;
-    margin-bottom: 2rem;
+    width: 8vw;
+    height:  25vh;
+    border-radius:.5vh;
+    margin-bottom: 2.5vh;
 }
 
 .cont-info2-hero{
-    width: 22.25rem;
+    width:  35vw;
+    height: 20vh;
+    margin-left: 4vh;
     display: flex;
     flex-direction: column;
     padding: 0px;
-    gap: 10px;
+    gap: 0.5rem;
 }
 
 
@@ -35,7 +38,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 3vh;
     color: #FFFFFF;
 }
 
@@ -43,14 +46,14 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1.6vh;
     color: rgba(255, 255, 255, 0.6);
 }
 .p2-info2-hero{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.8vh;
     color: #FFFFFF;
-    width: 356px;
+    width: 35vw;
 }

@@ -5,10 +5,14 @@
 }
 
 .img-nav{
-    margin: 2rem 5.688rem;
+    width: 7vw;
+    height: 7vh;
+    margin: 1rem 2rem;
 }
 .img-nav-web{
-    margin: 2rem 5.688rem;
+    width: 10vw;
+    height: 5vh;
+    margin: 1rem 2rem;
 }
 
 .img-nav-mobile{
