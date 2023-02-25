@@ -5,8 +5,8 @@ import Register from './components/Register/Register';
 function App() {
   return (
     <div className="App">
-      <Hero/>
-      {/* <Register/> */}
+      {/* <Hero/> */}
+      <Register/>
     </div>
   );
 }
