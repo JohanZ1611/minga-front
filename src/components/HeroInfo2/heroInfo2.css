@@ -1,59 +1,59 @@
 .hero-info{
-    width: 1258px;
-    height: 265px;
+    width: 92vw;
+    height:  25vh;
     background: linear-gradient(162.88deg, #FF5722 -11.37%, #F97316 73.97%);
     border-radius: 6px;
-    margin: 0 4rem;
     display: flex;
+    justify-content: start;
     align-items: center;
+    gap: 10vh;
         
 }
 .img1-info{
-    position: absolute;
-    width: 263px;
-    height: 291px;
-    left: 126px;
-    top: 650px;
+    width: 16vw;
+    height: 28vh;
+    margin-left: 5vh;
+    margin-bottom: .5rem;
 }
 
 .img2-info{
-    position: absolute;
-    width: 179px;
-    height: 284px;
-    left: 470px;
-    top: 640px;
-    border-radius: 6px;
+    width: 8vw;
+    height:  25vh;
+    border-radius:.5vh;
+    margin-bottom: 2.5vh;
 }
+
 .cont-info2-hero{
-    width: 22.25rem;
-    margin-left: 48.5rem;
+    width:  35vw;
+    height: 20vh;
+    margin-left: 4vh;
     display: flex;
     flex-direction: column;
     padding: 0px;
-    gap: 10px;
+    gap: 0.5rem;
 }
 
 
-.cont-info h2{
+.h2-info2-hero{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 3vh;
     color: #FFFFFF;
 }
 
-.cont-info p{
+.p1-info2-hero{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1.6vh;
     color: rgba(255, 255, 255, 0.6);
 }
-.cont-info p:nth-child(3){
+.p2-info2-hero{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.8vh;
     color: #FFFFFF;
-    width: 356px;
+    width: 35vw;
 }
