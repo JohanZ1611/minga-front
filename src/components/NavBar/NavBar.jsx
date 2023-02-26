@@ -9,10 +9,9 @@ export default function NavBar() {
     <div className='cont-nav'>
         <div className={`nav_items ${isOpen && "open"}`}>
           <a href="#">Home</a>
-          <a href="#">Upcoming Event</a>
-          <a href="#">Past Event</a>
-          <a href="#">Contact</a>
-          <a href="#">Stats</a>
+          <a href="#">Read</a>
+          <a href="#">Register</a>
+          <a href="#">Login</a>
         </div>
         <div className={`nav_toggle ${isOpen && "open"}`} onClick={()=> setIsOpen(!isOpen)} >
           <span></span>
