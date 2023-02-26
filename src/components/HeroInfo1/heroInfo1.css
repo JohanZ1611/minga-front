@@ -1,22 +1,14 @@
 .cont-info1-hero{
     color: white;
-<<<<<<< HEAD
     width: 37.0317vw;
     height: 21.4217vh;
     margin-left: 6.727rem;
     margin-top: 14vh;
-=======
-    width: 44.438rem;
-    height: 12.438rem;
-    margin-left: 6.727rem;
-    margin-top: 10rem;
->>>>>>> 605842d01bd72bf495d0a7b229df9c2cfc5247ba
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0px;
-<<<<<<< HEAD
     gap: 3vh;
 }
 
@@ -49,44 +41,10 @@
 }
 
 .btn-hero1{
-=======
-    gap: 15px;
-}
-
-.cont-info1-hero h2{
-    width: 44.438rem;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 95.19%;
-}
-
-.cont-info1-hero h3{
-    width: 15rem;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 95.19%;
-}
-
-.cont-info1-hero p{
-    width: 8rem;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 95.19%;
-}
-
-button{
->>>>>>> 605842d01bd72bf495d0a7b229df9c2cfc5247ba
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     border-radius: .5vh;
     width:  12vw;
     height: 6vh !important;
@@ -100,20 +58,6 @@ button{
     font-style: normal;
     font-weight: 500;
     font-size: 2vh;
-=======
-    border-radius: 6px;
-    width: 15rem;
-    height: 3.438rem;
-}
-
-button p{
-    width: 5.625rem;
-    height: 1.438rem;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
->>>>>>> 605842d01bd72bf495d0a7b229df9c2cfc5247ba
     line-height: 95.19%;
     background: linear-gradient(162.88deg, #FF5722 -11.37%, #F97316 73.97%);
     -webkit-background-clip: text;
@@ -122,7 +66,6 @@ button p{
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
 }
 
 @media (max-width: 1023px){
@@ -183,6 +126,3 @@ button p{
     }
 }
 
-=======
-}
->>>>>>> 605842d01bd72bf495d0a7b229df9c2cfc5247ba

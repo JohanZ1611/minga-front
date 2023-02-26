@@ -2,25 +2,16 @@
     min-height: 100vh;
 }
 .cont-header{
-<<<<<<< HEAD
     background: black;
-=======
-    background-color: black;
->>>>>>> 605842d01bd72bf495d0a7b229df9c2cfc5247ba
     background-image: url('../../../public/images/img-header.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-<<<<<<< HEAD
     height: 69.53713670613563vh;
-=======
-    height: 39rem;
->>>>>>> 605842d01bd72bf495d0a7b229df9c2cfc5247ba
     display: flex;
     flex-direction: column;
 }
 
-<<<<<<< HEAD
 
 .cont-info{
     height: 30.46286329386437vh;
@@ -45,11 +36,4 @@
     .cont-info{
         display: none;
     }
-=======
-.cont-info{
-    height: 23.625rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
->>>>>>> 605842d01bd72bf495d0a7b229df9c2cfc5247ba
 }
