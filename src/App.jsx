@@ -1,10 +1,10 @@
 import './App.css';
-import Index from './pages/Index/Index';
+import IndexLayout from './layouts/IndexLayout/IndexLayout';
 
 function App() {
   return (
     <div className="App">
-      <Index/>
+      <IndexLayout/>
     </div>
   );
 }
