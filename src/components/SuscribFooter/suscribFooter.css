@@ -1,0 +1,111 @@
+.cont-suscribe{
+    position: absolute;
+    top: 55vh;
+    background-color: white;
+    width: 70vw;
+    height: 20vh;
+    border-radius: 2vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.txt-footer{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.4vh;
+    line-height: 6.7vh;
+}
+
+.form-footer{
+    height: 10.8vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #2222221e;
+    border-radius: 1vh;
+}
+
+.input-footer{
+    font-size: 2.3vh;
+    border: none;
+    background: transparent;
+}
+
+.input-footer:focus {
+    outline: none;
+}
+
+.submit-footer{
+    width: 11.6vw;
+    height: 7.5vh;
+    padding: 2vh;
+    background: #F97316;
+    border-radius: 1vh;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2vh;
+    line-height: 3.3vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media (max-width: 1439px){
+    .cont-suscribe{
+        width: 80vw;
+    }
+    .form-footer{
+        width: 50vw ;
+        padding: 0 2vh;
+    }
+    .submit-footer{
+        width: 16vw;
+    }
+}
+
+@media (max-width: 1023px){
+    .cont-suscribe{
+        width: 98vw;
+        top: 50vh;
+    }
+    .form-footer{
+        width: 65vw ;
+        padding: 0 2vh;
+        
+    }
+    .submit-footer{
+        width: 22vw;
+    }
+}
+
+@media (max-width:767px) {
+    .cont-suscribe{
+        width: 80vw;
+        height: 30vh;
+        top: 40vh;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1vh;
+    }
+    .form-footer{
+        width: 74vw ;
+        height: 20vh;
+        padding: 0 2vh;
+        flex-wrap: wrap; 
+    }
+    .input-footer{
+        text-align: center;
+    }
+    .submit-footer{
+        width: 52vw;
+    }
+}
