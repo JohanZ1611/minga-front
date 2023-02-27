@@ -1,10 +1,11 @@
 import React from 'react'
-import Index from '../../pages/Index/Index'
+import NavBar from '../../components/NavBar/NavBar'
 
-export default function IndexLayout() {
+export default function IndexLayout(props) {
   return (
     <div>
-        <Index/>
+         <NavBar/>
+         {props.children}
     </div>
   )
 }

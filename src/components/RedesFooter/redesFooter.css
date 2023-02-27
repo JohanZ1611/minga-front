@@ -1,0 +1,122 @@
+.cont-redes{
+    width: 70vw;
+    height: 14vh;
+    margin-top: 18vh;
+    border-bottom: 1px solid #2b3d5154;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ancors-footer{
+    width: 10.2vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.a-footer{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 3.3vh;
+}
+
+.logo-footer{
+    width: 9vw;
+    height: 6vh;
+}
+
+.cont-redes2{
+    width: 14.3vw;
+    height: 12.4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-redes{
+    width: 12vw;
+    height: 2.8vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-footer{
+    border: none;
+    width: 14.3vw;
+    height: 5vh;
+    background: #F97316;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    color: #FFFFFF;
+    line-height: 95.19%;
+    cursor: pointer;
+}
+
+@media (max-width: 1439px){
+    .cont-redes{
+        width: 80vw;
+    }
+    .logo-footer{
+        width: 12vw ;
+        height: 6vh;
+    }
+    .ancors-footer{
+        width: 14vw;
+    }
+}
+
+@media (max-width: 1023px){
+    .cont-redes{
+        width: 90vw;
+    }
+    .logo-footer{
+        width: 16vw ;
+        height: 6vh;
+    }
+    .ancors-footer{
+        width: 22vw;
+    }
+    .img-redes{
+        width: 18vw;
+    }
+    .btn-footer{
+        width: 16vw;
+    }
+}
+
+@media (max-width: 767px){
+    .cont-redes{
+        width: 90vw;
+        height: 20vh;
+        margin-top: 14vh;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .logo-footer{
+        display: none;
+    }
+    .ancors-footer{
+        width: 60vw;
+    }
+    .img-redes{
+        width: 60vw;
+    }
+    .btn-footer{
+        width: 40vw;
+        margin-bottom: 1vh;
+    }
+}

@@ -18,7 +18,7 @@ export default function NavBar() {
           <span></span>
           <span></span>
         </div>
-        <img src="/images/Logo.svg" alt="logo" className='img-nav-web' />
+        <img src="/images/Logo-footer.png" alt="logo" className='img-nav-web' />
         <img src="/images/logo-mobile.svg" alt="logo" className='img-nav-mobile' />
     </div>
     
