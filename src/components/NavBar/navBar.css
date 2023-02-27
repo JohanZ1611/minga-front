@@ -107,6 +107,20 @@
     .cont-nav{
         width: 100vw;
     }
+    .img-nav-web{
+        width: 12vw;
+        height: 6vh;
+        margin: 1vh 6vh;
+    }
+    .nav_toggle span{
+        width: 4vh;
+    }
+    .nav_items{
+        width: 40vw;
+    }
+    .nav_toggle.open{
+        width: 40vw;
+    }
 }
 
 @media (max-width: 767px) {

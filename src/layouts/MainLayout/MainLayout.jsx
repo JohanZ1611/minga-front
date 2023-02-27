@@ -3,11 +3,11 @@ import NavBar from '../../components/NavBar/NavBar'
 import Footer from '../../components/Footer/Footer'
 import './mainLayout.css'
 
-export default function MainLayout() {
+export default function MainLayout(props) {
   return (
     <div className='cont-mainLayout'>
         <NavBar/>
-        <div className='cont-info-main'></div>
+        {props.children}
         <Footer/>
     </div>
   )
